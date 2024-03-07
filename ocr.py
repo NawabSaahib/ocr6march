@@ -82,4 +82,4 @@ def execute_processing(folder_path, keyword):
     return process_folder(folder_path, keyword)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0",port=5000)
